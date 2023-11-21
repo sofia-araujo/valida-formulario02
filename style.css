@@ -1,0 +1,73 @@
+section {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: rgb(9, 178, 230);
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(46, 44, 44);
+}
+
+#enviar {
+    margin: 15px auto;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border-style: none;
+    background: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+
+#enviar:hover {
+    background: rgb(154, 90, 214);
+}
+
+span {
+    color: red;
+}
+
+body {
+    transition: background-color 1s, color 1s;
+}
+
+.alternaModoEscuro {
+    background-color: black;
+    color: white;
+}
+
+.rosa{
+    background-color: pink;
+}
